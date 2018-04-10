@@ -42,4 +42,4 @@ def home(request):
         randomized_img = random.choice(backup_images)
 
     print(randomized_img)
-    return render(request, 'cats/home.html', { 'cat': randomized_img, 'backup': backup })
+    return render(request, 'identity/cats/home.html', { 'cat': randomized_img, 'backup': backup })
