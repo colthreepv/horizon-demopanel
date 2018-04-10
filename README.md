@@ -1,0 +1,4 @@
+horizon-demoplugin
+==================
+
+Hello world.
