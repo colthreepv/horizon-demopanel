@@ -1,0 +1,3 @@
+include setup.py
+
+recursive-include demopanel *.js *.html *.scss
