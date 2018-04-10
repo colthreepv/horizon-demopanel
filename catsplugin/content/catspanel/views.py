@@ -43,3 +43,6 @@ def home(request):
 
     print(randomized_img)
     return render(request, 'identity/cats/home.html', { 'cat': randomized_img, 'backup': backup })
+
+class IndexView(generic.TemplateView):
+    template_name = 'identity/cats/home.html'

@@ -17,4 +17,4 @@ AUTO_DISCOVER_STATIC_FILES = True
 ADD_JS_FILES = []
 
 # A list of template-based views to be added to the header
-ADD_HEADER_SECTIONS = ['catsplugin.content.catspanel.views.home']
+ADD_HEADER_SECTIONS = ['catsplugin.content.catspanel.views.IndexView']
